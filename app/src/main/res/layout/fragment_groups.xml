@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/buttonNewMessage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_shadow_start_color"
+    tools:context=".Groups">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/main_textViewGroup"
+        android:layout_width="92dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="172dp"
+        android:text="GROUPS"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/editTextCreateGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter a group name"
+        android:inputType="textPersonName"
+        android:translationX="50px"
+        android:translationY="600px" />
+
+    <Button
+        android:id="@+id/buttonCreateGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create Group"
+        android:translationX="630px"
+        android:translationY="600px" />
+
+    <ListView
+        android:id="@+id/listViewGroups"
+        android:layout_width="match_parent"
+        android:layout_height="414dp"
+        android:translationY="750px" />
+
+</FrameLayout>
